@@ -11,6 +11,10 @@
 [![GitHub Forks](https://img.shields.io/github/forks/alsyundawy/PowerDNS-Zone-Backups?style=social)](https://github.com/alsyundawy/PowerDNS-Zone-Backups/network/members)
 [![GitHub Contributors](https://img.shields.io/github/contributors/alsyundawy/PowerDNS-Zone-Backups?style=social)](https://github.com/alsyundawy/PowerDNS-Zone-Backups/graphs/contributors)
 
+**If you find this project helpful and would like to support it, please consider donating via https://www.paypal.me/alsyundawy. Thank you for your support!**
+
+**Jika Anda merasa terbantu dan ingin mendukung proyek ini, pertimbangkan untuk berdonasi melalui https://www.paypal.me/alsyundawy. Terima kasih atas dukungannya!**
+
 PowerDNS menggunakan backend database secara default (mis. MySQL). Cukup lakukan dump database dari database yang dikonfigurasi dan Anda akan memiliki snapshot dari semua zona untuk pemulihan yang mudah. Disarankan untuk membuang database ke cadangan secara teratur sehingga Anda dapat memulihkan jika terjadi kerusakan server. Seberapa sering Anda harus mengambil cadangan sebagian bergantung pada seberapa aktif zona diperbarui, sekali sehari adalah aturan praktis yang baik.
 
 Namun ini hanya baik untuk melakukan pengembalian penuh semua zona ke titik waktu pencadangan dibuat. Mengembalikan satu zona dari dump database penuh akan menjadi hal yang tidak sepele. PowerDNS menyertakan alat baris perintah pdnsutil yang dapat digunakan untuk membuang file zona individu. Anda kemudian dapat memulihkan masing-masing zona ke keadaan pada saat ekspor tertentu. Ini berguna jika satu zona secara tidak sengaja terhapus atau salah diperbarui dan Anda perlu memulihkan zona tertentu saja.
